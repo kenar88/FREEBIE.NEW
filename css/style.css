@@ -1,5 +1,5 @@
 body {
-  width: 1800px;
+  min-width:1900px;
   background: white;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -15,9 +15,11 @@ body {
 }
 
 .main-header {
-  width: 100%px;
+  width: 1900px;
   height: 790px;
-  background-image: url(../img/Rectangle%201%20copie.png)
+  background-image: url(../img/Rectangle%201%20copie.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-header-nav {
   display: flex;
@@ -157,8 +159,8 @@ body {
 }
 .slider li {
   display: inline-block;
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   border: 1px solid #929292;
   border-radius: 50%;
 }
@@ -168,11 +170,11 @@ body {
 .active-sld::after {
   content: "";
   position: absolute;
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   background: #cc9900;
-  top: 1.2px;
-  right: 1.6px;
+  top: 2px;
+  right: 2px;
   border-radius: 50%;
 }
 .gril1 {
@@ -309,12 +311,12 @@ body {
 .gril1-item5 {
   position: absolute;
   bottom: 100px;
-  left: 546px;
+  left: 600px;
 }
 .gril1-item6 {
   position: absolute;
   bottom: 100px;
-  left: 285px;
+  left: 335px;
 }
 .gril1-item6 img {
    margin-top: 74px;
@@ -322,13 +324,13 @@ body {
 .calgue-4 {
   position: absolute;
   bottom: 128px;
-  right: 510px;
-  width: 495px;
+  right: 598px;
+  width: 459px;
 }
 .extra-virgin {
   position: absolute;
   bottom: 125px;
-  right: 285px;
+  right: 338px;
 }
 .extra-virgin-text {
   position: absolute;
@@ -353,11 +355,12 @@ body {
 }
 .main-title {
   position: relative;
-  width: 1800px;
+  width: 1900px;
   height: 250px;
   background-color: bisque;
   background-image: url(../img/BAck-bread.png);
-  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat:repeat;
   }
 .main-title h2 {
   display: block;
@@ -491,6 +494,7 @@ background: white;
   display: block;
 }
 .features {
+  width: 1900px;
   background: #f6f6f6;
   text-align: center;
 }
@@ -616,11 +620,12 @@ background: white;
 }
 .second-title {
   position: relative;
-  width: 1800px;
+  width: 1900px;
   height: 525px;
   border-color: azure;
   background-image: url(../img/anotherBACK.png);
-  background-repeat: no-repeat;
+  background-repeat:repeat;
+  background-position: center;
 }
 .second-title p {
   display: block;
@@ -706,10 +711,12 @@ background: white;
   bottom: 15px;
 }
 .footer-contacts {
-  width: 1800px;
+  width: 1900px;
   height: 525px;
   background-color: bisque;
   background-image: url(../img/CONTACTS-BACK.png);
+  background-repeat: repeat;
+  background-position: center;
   display: flex;
   justify-content: space-between;
   margin-bottom: 55px;
